@@ -1,4 +1,8 @@
-
+.timeSlot {
+    border-top: gray, 1px;
+    border-bottom: gray, 1px;
+    text-align: right;
+}
 
 
 
