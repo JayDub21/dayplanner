@@ -1,7 +1,17 @@
+.banner {
+    text-align:center;
+}
+
 .timeSlot {
-    border-top: gray, 1px;
-    border-bottom: gray, 1px;
-    text-align: right;
+    text-align: center;
+}
+
+.infoSlot {
+    background:#d3c03f;
+}
+
+.saveSlot {
+    background:#3da2ac;
 }
 
 
