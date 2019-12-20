@@ -7,11 +7,19 @@
 }
 
 .infoSlot {
-    background:#d3c03f;
+    background:#b7e780;
 }
 
 .saveSlot {
     background:#3da2ac;
+}
+
+.btn {
+    background-color: transparent;
+}
+
+h3 {
+    padding:5px;
 }
 
 
