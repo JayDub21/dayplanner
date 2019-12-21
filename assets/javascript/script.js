@@ -36,9 +36,9 @@ $(document).ready(function () {
 
         var btnData = $(this).attr("saveBtn");
 
-        var textTarget = $("#textSlot" + btnData); put.
+        var textTarget = $("#textSlot" + btnData);
 
-            localStorage.setItem(textTarget.attr("id"), textTarget.val());
+        localStorage.setItem(textTarget.attr("id"), textTarget.val());
     });
 
 
@@ -53,7 +53,7 @@ $(document).ready(function () {
     $("#textSlot17").text(localStorage.getItem("textSlot9"));
 
 
-
+    console.log(localStorage);
 
     $("#clearBtn").on("click", function () {
         localStorage.clear();
