@@ -41,7 +41,7 @@ $(document).ready(function () {
             localStorage.setItem(textTarget.attr("id"), textTarget.val());
     });
 
-    //site should load any saved data from localStorage.
+
     $("#textSlot9").text(localStorage.getItem("textSlot1"));
     $("#textSlot10").text(localStorage.getItem("textSlot2"));
     $("#textSlot11").text(localStorage.getItem("textSlot3"));
@@ -52,7 +52,6 @@ $(document).ready(function () {
     $("#textSlot16").text(localStorage.getItem("textSlot8"));
     $("#textSlot17").text(localStorage.getItem("textSlot9"));
 
-    console.log(localStorage)
 
 
 
