@@ -35,17 +35,10 @@ $(document).ready(function () {
         var button = $(this);
 
         var btnData = $(this).attr("saveBtn");
-        //console log click on THIS specific button in this class
-        // console.log(btnData);
-        //descriptionTarget locates the specific description element that user filled in text with.
-        var textTarget = $("#textSlot" + btnData);
-        // console.log(textTarget);
-        //we log to ensure we're grabbing the user input.
-        console.log(textTarget.val());
 
-        //this is supposed to set the text area text to that specific textArea and store it.
-        //We pick the "id" attribute from the element, descriptionTarget. This id is the key, and the key value is descriptionTarget.val().
-        localStorage.setItem(textTarget.attr("id"), textTarget.val());
+        var textTarget = $("#textSlot" + btnData); put.
+
+            localStorage.setItem(textTarget.attr("id"), textTarget.val());
     });
 
     //site should load any saved data from localStorage.

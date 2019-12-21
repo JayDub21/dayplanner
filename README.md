@@ -1,6 +1,6 @@
 Day-Planner
 
-View my page here:  https://jaydub21.github.io/dayplanner/
+View this page here:  https://jaydub21.github.io/dayplanner/
 
 This planner is being designed to help organize all the tasks that somebody would need to be completed in a typical work day time frame.
 
