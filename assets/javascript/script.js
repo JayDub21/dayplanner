@@ -1,30 +1,32 @@
 $(document).ready(function () {
 
     //display current time and date in jumbotron.
-    var currentEl = $("#currentDay");
+    var currentDate = $("#currentDate");
+    var colorChangeEl = $(".color-change");
 
-
-    currentEl.text(moment().format('MMMM Do YYYY, h:mm:ss a'));
-    console.log(currentEl);
-    var inputBlockEl = $(".time-block");
+    currentDate.text(moment().format('MMMM Do YYYY, h:mm:ss a'));
 
     var update = function () {
-        currentEl.text(moment().format('MMMM Do YYYY, hh:mm:ss'));
+        currentDate.text(moment().format('MMMM Do YYYY, h:mm:ss a'));
 
         var now = moment();
-
+        // console.log(now);
 
         //calculate the time with moment, and remove classes
 
-        inputBlockEl.each(function (i, element) {
+        colorChangeEl.each(function (i, element) {
             element = $(element);
             if (now > element.attr("data-hour")) {
                 element.addClass("past").removeClass("future present");
-            } else if (now == element.attr("data-hour")) {
+            } else if (now == element.attr("infoSlot")) {
                 element.addClass("present").removeClass("future past");
             }
         });
     }
     //check every second.
     setInterval(update, 1000);
+    $(".textField").text("");
+
 });
+
+

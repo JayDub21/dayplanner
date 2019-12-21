@@ -6,13 +6,33 @@
     text-align: center;
 }
 
-.infoSlot {
+/* .infoSlot {
     background:#b7e780;
+} */
+
+/* .saveSlot {
+    background:#3da2ac;
+} */
+.infoSlot{
+    border: solid .5px gray;
 }
 
 .saveSlot {
-    background:#3da2ac;
+    border: solid .5px gray;
 }
+
+.timeSlot {
+    border: solid .5px gray;
+}
+textarea{
+    background: transparent;
+    border: none;
+    resize: none;
+    color: #000000;
+    padding: 15px;
+    width: 100%;
+    height: 72%;
+  }
 
 .btn {
     background-color: transparent;
@@ -22,6 +42,30 @@ h3 {
     padding:5px;
 }
 
+.textField {
+    background: transparent !important;
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    border: none;
+    padding: 2px;
+   
+}
+
+.past {
+    background-color: #d3d3d3;
+    color: white;
+  }
+  
+  .present {
+    background-color: #ff6961;
+    color: white;
+  }
+  
+  .future {
+    background-color: #77dd77;
+    color: white;
+  }
 
 
 /* Small devices (landscape phones, 576px and up) */
