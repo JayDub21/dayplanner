@@ -6,19 +6,18 @@
     text-align: center;
 }
 
-/* .infoSlot {
-    background:#b7e780;
-} */
+.buttonLocation{
+text-align: center;
+margin-top: 30px;
+}
 
-/* .saveSlot {
-    background:#3da2ac;
-} */
 .infoSlot{
     border: solid .5px gray;
 }
 
 .saveSlot {
     border: solid .5px gray;
+    background: #06AED5; 
 }
 
 .timeSlot {
